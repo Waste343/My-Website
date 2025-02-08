@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моят успех</title>
+    <style>
+        * {
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('E:\\Vintage Cinema Upscaled.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: inherit;
+            background-size: inherit;
+            background-repeat: inherit;
+            background-position: inherit;
+            filter: blur(10px);
+            z-index: -1;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 69, 58, 0.85);
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #28A745;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border: 2px solid #000;
+        }
+        .news, .content {
+            width: 48%;
+        }
+        .news {
+            border-right: 1px solid #ccc;
+            text-align: center;
+        }
+        .content {
+            text-align: center;
+        }
+        .weather-item {
+            margin-bottom: 15px;
+        }
+        .weather-item img {
+            display: block;
+            margin: 0 auto;
+        }
+        .weather-item i {
+            display: block;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        img {
+            border: 1px solid #000;
+        }
+        .achievement {
+            margin: 10px 0;
+        }
+        .achievement a {
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+        .achievement a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(244, 244, 244, 0.15);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="E:\Logo.png" alt="Лого" width="25" height="35" style="float:left;">
+        <h1>Моят успех</h1>
+        <nav>
+            <a href="index.html">Начало</a>
+            <a href="about.html">За мен</a>
+            <a href="achievements.html">Моите постижения</a>
+            <a href="news.html">Новини</a>
+            <a href="contacts.html">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <section class="news">
+            <h2>Новини</h2>
+            <b>Актуална прогноза за времето в Пловдив</b>
+            <div class="weather-item">
+                <img src="E:\Слънчево.png" alt="Слънчево" width="150" height="100">
+                <i>Понеделник: Слънчево, 25°C</i>
+            </div>
+            <div class="weather-item">
+                <img src="E:\Дъждовно.png" alt="Дъждовно" width="150" height="100">
+                <i>Вторник: Дъждовно, 18°C</i>
+            </div>
+            <div class="weather-item">
+                <img src="E:\Облачно.png" alt="Облачно" width="150" height="100">
+                <i>Сряда: Облачно, 20°C</i>
+            </div>
+        </section>
+        <section class="content">
+            <h2>Моите постижения</h2>
+            <div class="achievement">
+                <a href="achievements.html">
+                    <img src="E:\Become a father.png" alt="Постижение 1" width="200" height="150">
+                    <p>Become a father</p>
+                </a>
+            </div>
+            <div class="achievement">
+                <a href="achievements.html">
+                    <img src="E:\Oscar.png" alt="Постижение 2" width="200" height="150">
+                    <p>Win an Oscar for Best Actor in a Leading Role</p>
+                </a>
+            </div>
+            <div class="achievement">
+                <a href="achievements.html">
+                    <img src="E:\Movie.TV Show.png" alt="Постижение 3" width="200" height="150">
+                    <p>Make a Movie and a TV Show</p>
+                </a>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wD2cVhC-63I" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Стефан Евтимов. Всички права запазени.</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="mailto:your-email@example.com">Email</a>
+        </p>
+        <p><a href="https://maps.google.com" target="_blank">Моето местоположение</a></p>
+    </footer>
+</body>
+</html>
+
+
+

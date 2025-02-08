@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <style>
+        * {
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('E:\\Vintage Cinema Upscaled.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: inherit;
+            background-size: inherit;
+            background-repeat: inherit;
+            background-position: inherit;
+            filter: blur(10px);
+            z-index: -1;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 69, 58, 0.85);
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #28A745;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(244, 244, 244, 0.15);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="E:\Logo.png" alt="Лого" width="25" height="35" style="float:left;">
+        <h1>КОНТАКТИ</h1>
+        <nav>
+            <a href="index.html">Начало</a>
+            <a href="about.html">За мен</a>
+            <a href="achievements.html">Моите постижения</a>
+            <a href="news.html">Новини</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Основно съдържание на страницата</h2>
+        <p>Добавете текст или друго съдържание тук.</p>
+    </main>
+    <footer>
+        <p>© 2023 Стефан Евтимов. Всички права запазени.</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="mailto:your-email@example.com">Email</a>
+        </p>
+        <p><a href="https://maps.google.com" target="_blank">Моето местоположение</a></p>
+    </footer>
+</body>
+</html>
